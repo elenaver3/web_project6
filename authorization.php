@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-<?php
-    date_default_timezone_set('Europe/Moscow');
-    $title = "Верстова Е.В. 221-361. Лабораторная 5"
-?>
+<?php require 'info.php' ?>   
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +14,7 @@
         <section class="text">
             <h2>Войти</h2>
             <p>
-                Здесь вы зайти на сайт под своей учетной записью.
+                Здесь вы можете зайти на сайт под своей учетной записью.
             </p>
         </section>
         <section class="authorization_section">
