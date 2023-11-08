@@ -217,3 +217,19 @@ h2 {
     padding: 20px;
     height: 350px;
 }
+
+.calc {
+    padding-bottom: 200px;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+}
+
+.calc > * {
+    padding: 10px;
+}
+
+.result_calc {
+    margin: 10px;
+    font-size: 26px;
+}
