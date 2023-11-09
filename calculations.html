@@ -44,7 +44,56 @@
             </ul>
         </nav>
     </header>
-
+    <main>
+        <section>
+            <h1 class="main_h1">Расчеты</h1>
+        </section>
+        <section class="calc">
+            <h2>Возведение в степень</h2>
+            <div>
+                <input type="text" id="powOne">
+                <input type="text" id="powTwo">
+                <button type="button" onclick="powFunction(document.getElementById('powOne').value, document.getElementById('powTwo').value)">Выполнить</button>
+            </div>
+            <div class="result_calc">
+                <p id="firstResult"></p>
+            </div>
+            <h2>Нахождение НОД</h2>
+            <div>
+                <input type="text" id="gcdOne">
+                <input type="text" id="gcdTwo">
+                <button type="button" onclick="gcdFunction(document.getElementById('gcdOne').value, document.getElementById('gcdTwo').value)">Выполнить</button>
+            </div>
+            <div class="result_calc">
+                <p id="secondResult"></p>
+            </div>
+            <h2>Наименьшая цифра</h2>
+            <div>
+                <input type="text" id="minDigitNumber">
+                <button type="button" onclick="minDigit(document.getElementById('minDigitNumber').value)">Выполнить</button>
+            </div>
+            <div class="result_calc">
+                <p id="thirdResult"></p>
+            </div>
+            <h2>Плюрализация</h2>
+            <div>
+                <input type="text" id="plurNumber">
+                <button type="button" onclick="pluralization(document.getElementById('plurNumber').value)">Выполнить</button>
+            </div>
+            <div class="result_calc">
+                <p id="forthResult"></p>
+            </div>
+            <h2>Фибоначчи</h2>
+            <div>
+                <input type="text" id="fibbNumber">
+                <button type="button" onclick="fibb(document.getElementById('fibbNumber').value)">Выполнить</button>
+            </div>
+            <div class="result_calc">
+                <p id="fifthResult"></p>
+            </div>
+        
+        </section>
+    </main>
     <script type="text/javascript">
         function powFunction(x, n) { 
             var result = x;
@@ -142,58 +191,6 @@
             
         } 
     </script>
-    <main>
-        <section>
-            <h1 class="main_h1">Расчеты</h1>
-        </section>
-        <section class="calc">
-            <h2>Возведение в степень</h2>
-            <div>
-                <input type="text" id="powOne">
-                <input type="text" id="powTwo">
-                <button type="button" onclick="powFunction(document.getElementById('powOne').value, document.getElementById('powTwo').value)">Выполнить</button>
-            </div>
-            <div class="result_calc">
-                <p id="firstResult"></p>
-            </div>
-            <h2>Нахождение НОД</h2>
-            <div>
-                <input type="text" id="gcdOne">
-                <input type="text" id="gcdTwo">
-                <button type="button" onclick="gcdFunction(document.getElementById('gcdOne').value, document.getElementById('gcdTwo').value)">Выполнить</button>
-            </div>
-            <div class="result_calc">
-                <p id="secondResult"></p>
-            </div>
-            <h2>Наименьшая цифра</h2>
-            <div>
-                <input type="text" id="minDigitNumber">
-                <button type="button" onclick="minDigit(document.getElementById('minDigitNumber').value)">Выполнить</button>
-            </div>
-            <div class="result_calc">
-                <p id="thirdResult"></p>
-            </div>
-            <h2>Плюрализация</h2>
-            <div>
-                <input type="text" id="plurNumber">
-                <button type="button" onclick="pluralization(document.getElementById('plurNumber').value)">Выполнить</button>
-            </div>
-            <div class="result_calc">
-                <p id="forthResult"></p>
-            </div>
-            <h2>Фибоначчи</h2>
-            <div>
-                <input type="text" id="fibbNumber">
-                <button type="button" onclick="fibb(document.getElementById('fibbNumber').value)">Выполнить</button>
-            </div>
-            <div class="result_calc">
-                <p id="fifthResult"></p>
-            </div>
-        
-        
-        
-        </section>
-    </main>
     <footer>
         <div class="container">
             <p>
